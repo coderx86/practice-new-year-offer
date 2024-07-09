@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* font */
 .inter-normal {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -5,11 +10,6 @@
     font-variation-settings:
       "slnt" 0;
   }
-
-*{
-    padding: 0;
-    margin: 0;
-}
 /* shared styles */
 .center-content{
     display: flex;
@@ -18,7 +18,6 @@
     align-items: center;
     text-align: center;
 }
-
 /* banner syles */
 .banner{
     background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url(images/Banner\ Image.png);
@@ -62,4 +61,39 @@
 }
 .first-section-container img{
     height: 500px;
+}
+/* second section styles */
+.second-section-content{
+    background-image: linear-gradient(90deg, rgb(0, 0, 0), rgba(255, 255, 255, 0)), url(images/Vectorrr.png);
+    height: 600px;
+    width: 1320px;
+    color: white;
+    border-radius: 16px;
+    margin: 0px auto 120px;
+    display: flex;
+    gap: 39.7px;
+}
+.second-section-text{
+    padding-left: 126px;
+    padding-top: 126px;
+}
+.second-section-text h1{
+    font-size: 64px;
+}
+.second-section-text p{
+    font-size: 18px;
+    margin-top: 24px;
+}
+.second-section-text h3{
+    font-size: 20px;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+.second-section-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-img img{
+    height: 464.66px;
 }
