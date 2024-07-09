@@ -1,28 +1,65 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
 *{
     padding: 0;
     margin: 0;
 }
+/* shared styles */
+.center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* banner syles */
 .banner{
     background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url(images/Banner\ Image.png);
     height: 600px;
     width: 1320px;
     border-radius: 16px;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
     margin: 50px auto;
 }
-.banner>h4{
+.banner h4{
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-size: 32px;
     color: white;
 }
-.banner>h2{
+.banner h2{
     font-family: "Merriweather", serif;
     font-size: 72px;
     color: white;
 }
 
+/* section styles */
+.first-section-container{
+    margin: 120px auto;
+}
+.dis-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.first-section-content p{
+    font-size: 24;
+    font-weight: 600;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.first-section-content h2{
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+.first-section-container img{
+    height: 500px;
+}
